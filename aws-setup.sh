@@ -6,9 +6,9 @@
 echo "🚀 Setting up AWS EKS cluster..."
 
 # Variables
-CLUSTER_NAME="flask-app-cluster"
+CLUSTER_NAME="claude-test-cluster"
 REGION="us-west-2"
-NODE_GROUP_NAME="flask-app-nodes"
+NODE_GROUP_NAME="claude-test-nodes"
 
 # Check if AWS CLI is installed
 if ! command -v aws &> /dev/null; then

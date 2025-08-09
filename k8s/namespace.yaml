@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: flask-app-namespace
+  name: claude-test-namespace

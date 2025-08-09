@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: flask-app
+  name: claude-test
   labels:
-    app: flask-app
+    app: claude-test
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: flask-app
+      app: claude-test
   template:
     metadata:
       labels:
-        app: flask-app
+        app: claude-test
     spec:
       containers:
-      - name: flask-app
-        image: your-registry/flask-app:latest
+      - name: claude-test
+        image: your-registry/claude-test:latest
         ports:
         - containerPort: 5000
         env:
